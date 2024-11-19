@@ -1,0 +1,12 @@
+{
+    "name": "aorusx/test2",
+    "description": "tets",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aorusx\\Test2\\": "src/"
+        }
+    },
+    "require": {}
+}

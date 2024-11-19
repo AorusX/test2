@@ -8,5 +8,10 @@
             "Aorusx\\Test2\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "scripts": {
+        "post-install-cmd": [
+            "MyLibrary\\Installer::postInstall"
+        ]
+    }
 }
